@@ -1,0 +1,14 @@
+//creo el controlador
+php artisan make:controller CreatesController
+
+//creo el modelo 
+php artisan make:model Article -m
+
+//creo la migracion 
+//osea se crea la base de datos 
+php artisan migrate
+
+
+php artisan migrate:refresh
+
+php artisan make:model Article2 -m
